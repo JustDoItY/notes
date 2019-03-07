@@ -2,8 +2,8 @@
 
 ## 一. 创建实例对象的过程
 
-1.  当使用一个函数创建实例对象的时候，函数的prototype属性会指向一个对象，这个对象拥有constructor，constructor就是函数本身，对象的__proto__指向Object.prototype，Object.prototype中包含有一些属性，__proto__为null，原型链到此为止。
-2.  实例对象__proto__属性，和函数的prototype属性指向同一个对象，并且__proto__和prototype可以改变指向的对象。实例对象的__proto__和函数的prototype不是等价的。
+1. 当使用一个函数创建实例对象的时候，函数的prototype属性会指向一个对象，这个对象拥有constructor，constructor就是函数本身，对象的__proto__指向Object.prototype，Object.prototype中包含有一些属性，__proto__为null，原型链到此为止。
+2. 实例对象__proto__属性，和函数的prototype属性指向同一个对象，并且__proto__和prototype可以改变指向的对象。实例对象的__proto__和函数的prototype不是等价的。
 
 ## 二. 如何寻找变量和函数
 
