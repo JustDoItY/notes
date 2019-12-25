@@ -34,7 +34,8 @@
 
 ## 三. 撤销修改
 
-- git reset --hard version：修改本地仓库版本
+- git reset --hard version：修改本地仓库版本，把之后的修改全部清除
+- git reset --soft version: 回退到这个版本，同时把之后的提交当作修改保存下来
 - git reset HEAD 文件：把提交到缓存区的代码，回退到本地工作区
 - git checkout --文件：撤销本地工作区的修改
 
