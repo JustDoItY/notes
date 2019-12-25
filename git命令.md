@@ -70,6 +70,7 @@
 - git log --graph：查看提交历史图表
 - git log --oneline：把提交信息整合到一行显示
 - git log --stat：显示某次commit中添加行、删除行的总数
+- git reflog：查看所有的操作记录，可以根据这些信息回退到摸一个版本
 
 ## 八. rebase
 
@@ -87,6 +88,7 @@
 - git stash：保存当前工作区到暂存区
 - git stash list：列出当前保存的修改
 - git stash pop：弹出保存的修改
+- git status 查看当前工作区的状态
 
 ## 十一. 一些心得体验
 - rebase，实际上这个命令没这么难，我解说下。
